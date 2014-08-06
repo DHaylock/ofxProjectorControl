@@ -1,9 +1,7 @@
 //--------------------------------------------------------------
-//* Name: projectorControl.h
-//* Project: Playable City 2014 Award
+//* Name: ofxProjectorControl.h
 //* Author: David Haylock
 //* Creation Date: 06-08-2014
-//* Copyright: (c) 2014 by Watershed Arts Trust Ltd.
 //--------------------------------------------------------------
 
 #include "ofMain.h"
