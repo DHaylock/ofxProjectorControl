@@ -54,7 +54,7 @@
 #define BAUD 9600
 #define PORT "tty.usbserial-A702WZAS"
 
-class ofxProjectorControl {
+class ofxProjectorControl : public ofSerial {
     
 public:
     
@@ -106,7 +106,7 @@ public:
     void colorRGB();
     void language();
     void selectHDMIInput();
-    
-private:
-    ofSerial serial;
+
+    void turnOnCamera();
+    void turnOffCamera();
 };
